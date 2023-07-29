@@ -44,6 +44,8 @@ const Body = styled.div`
     width: 67vw;
     min-height: 100vh;
     height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(10px);
 
     padding-top: 118px;
     padding-left: 32px;

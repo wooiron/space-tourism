@@ -46,7 +46,6 @@ const StyledLink = styled(Link)`
   }
 
   @media (width < ${smallWindowSize}px) {
-    background-color: white;
     width: 100%;
   }
 `;
