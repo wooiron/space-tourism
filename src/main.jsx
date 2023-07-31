@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import DestinationPage from './router/pages/Destination/index.jsx';
+// import DestinationPage from './router/pages/Destination/index.jsx';
 import CrewPage from './router/pages/crew';
 import TechnologyPage from './router/pages/technology';
 import HomePage from './router/pages/Home';
@@ -23,10 +23,10 @@ const router = createBrowserRouter([
         path: 'home',
         element: <HomePage />,
       },
-      {
-        path: 'destination',
-        element: <DestinationPage />,
-      },
+      // {
+      //   path: 'destination',
+      //   element: <DestinationPage />,
+      // },
       {
         path: 'crew',
         element: <CrewPage />,
