@@ -1,8 +1,11 @@
 import styled from 'styled-components';
 import Text from '../../../styling/elements/Text';
-import { colorType2, hoverColor } from '../../../constant/colors';
+import { colorType2, hoverColor } from '../../../constant/colors/index.js';
 import { useState } from 'react';
-import { mediumWindowSize, smallWindowSize } from '../../../constant/window';
+import {
+  mediumWindowSize,
+  smallWindowSize,
+} from '../../../constant/window/index.js';
 
 const destinationInfos = [
   {
