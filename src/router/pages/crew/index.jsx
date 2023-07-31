@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 import Text from '../../../styling/elements/Text';
-import { colorType2, colorType3, hoverColor } from '../../../constant/colors';
+import {
+  colorType2,
+  colorType3,
+  hoverColor,
+} from '../../../constant/colors/index.js';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';

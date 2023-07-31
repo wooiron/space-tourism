@@ -1,9 +1,12 @@
 import styled from 'styled-components';
 import Text from '../../../styling/elements/Text';
-import { colorType2 } from '../../../constant/colors';
+import { colorType2 } from '../../../constant/colors/index.js';
 import MainButton from './components/MainButton';
 import { Link } from 'react-router-dom';
-import { mediumWindowSize, smallWindowSize } from '../../../constant/window';
+import {
+  mediumWindowSize,
+  smallWindowSize,
+} from '../../../constant/window/index.js';
 
 const HomePage = () => {
   return (
@@ -58,6 +61,7 @@ const Body = styled.div`
     justify-content: center;
     padding-left: 15%;
     padding-right: 15%;
+    margin-top: 30%;
     text-align: center;
     /* & h5,
     h1,

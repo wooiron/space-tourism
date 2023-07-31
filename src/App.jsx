@@ -4,13 +4,14 @@ import styled from 'styled-components';
 import NavMenuList from './components/NavMenu/NavMenuList';
 import { useState } from 'react';
 import { useEffect } from 'react';
-import { mediumWindowSize, smallWindowSize } from './constant/window';
+import { mediumWindowSize, smallWindowSize } from './constant/window/index.js';
 
 const menuList = [
   { number: '00', name: 'HOME' },
   { number: '01', name: 'DESTINATION' },
   { number: '02', name: 'CREW' },
   { number: '03', name: 'TECHNOLOGY' },
+  { number: '04', name: 'MAP' },
 ];
 
 function App() {
