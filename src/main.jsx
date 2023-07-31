@@ -7,7 +7,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import DestinationPage from './router/pages/destination';
 import CrewPage from './router/pages/crew';
 import TechnologyPage from './router/pages/technology';
-import HomePage from './router/pages/Home';
+import HomePage from './router/pages/home';
 import MapPage from './router/pages/map';
 
 const router = createBrowserRouter([
@@ -15,30 +15,30 @@ const router = createBrowserRouter([
     path: '/',
     element: <App />,
     children: [
-      // {
-      //   index: true,
-      //   elemet: <HomePage />,
-      // },
-      // {
-      //   path: 'home',
-      //   element: <HomePage />,
-      // },
+      {
+        index: true,
+        elemet: <HomePage />,
+      },
+      {
+        path: 'home',
+        element: <HomePage />,
+      },
       {
         path: 'destination',
         element: <DestinationPage />,
       },
-      // {
-      //   path: 'crew',
-      //   element: <CrewPage />,
-      // },
-      // {
-      //   path: 'technology',
-      //   element: <TechnologyPage />,
-      // },
-      // {
-      //   path: 'map',
-      //   element: <MapPage />,
-      // },
+      {
+        path: 'crew',
+        element: <CrewPage />,
+      },
+      {
+        path: 'technology',
+        element: <TechnologyPage />,
+      },
+      {
+        path: 'map',
+        element: <MapPage />,
+      },
     ],
   },
 ]);
