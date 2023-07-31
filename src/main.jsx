@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-// import DestinationPage from './router/pages/Destination/index.jsx';
+import DestinationPage from './router/pages/Destination/';
 import CrewPage from './router/pages/crew';
 import TechnologyPage from './router/pages/technology';
 import HomePage from './router/pages/Home';
@@ -15,30 +15,30 @@ const router = createBrowserRouter([
     path: '/',
     element: <App />,
     children: [
-      {
-        index: true,
-        elemet: <HomePage />,
-      },
-      {
-        path: 'home',
-        element: <HomePage />,
-      },
       // {
-      //   path: 'destination',
-      //   element: <DestinationPage />,
+      //   index: true,
+      //   elemet: <HomePage />,
+      // },
+      // {
+      //   path: 'home',
+      //   element: <HomePage />,
       // },
       {
-        path: 'crew',
-        element: <CrewPage />,
+        path: 'destination',
+        element: <DestinationPage />,
       },
-      {
-        path: 'technology',
-        element: <TechnologyPage />,
-      },
-      {
-        path: 'map',
-        element: <MapPage />,
-      },
+      // {
+      //   path: 'crew',
+      //   element: <CrewPage />,
+      // },
+      // {
+      //   path: 'technology',
+      //   element: <TechnologyPage />,
+      // },
+      // {
+      //   path: 'map',
+      //   element: <MapPage />,
+      // },
     ],
   },
 ]);
