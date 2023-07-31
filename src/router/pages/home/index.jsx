@@ -1,12 +1,9 @@
 import styled from 'styled-components';
 import Text from '../../../styling/elements/Text';
-import { colorType2 } from '../../../constant/colors/index.js';
+import { colorType2 } from '../../../constant/colors';
 import MainButton from './components/MainButton';
 import { Link } from 'react-router-dom';
-import {
-  mediumWindowSize,
-  smallWindowSize,
-} from '../../../constant/window/index.js';
+import { mediumWindowSize, smallWindowSize } from '../../../constant/window';
 
 const HomePage = () => {
   return (

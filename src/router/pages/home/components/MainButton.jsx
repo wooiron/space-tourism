@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import propTypes from 'prop-types';
-import Text from '../../../../styling/elements/Text/index.jsx';
-import { colorType1 } from '../../../../constant/colors/index.js';
+import Text from '../../../../styling/elements/Text';
+import { colorType1 } from '../../../../constant/colors';
 
 const MainButton = ({ text }) => {
   return (

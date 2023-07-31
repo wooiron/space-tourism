@@ -5,7 +5,7 @@ import {
   colorType2,
   colorType3,
   hoverColor,
-} from '../../../constant/colors/index.js';
+} from '../../../constant/colors';
 
 import { useState } from 'react';
 import { mediumWindowSize, smallWindowSize } from '../../../constant/window';

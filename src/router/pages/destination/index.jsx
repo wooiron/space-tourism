@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import Text from '../../../styling/elements/Text';
-import { colorType2, hoverColor } from '../../../constant/colors/index.js';
+import { colorType2, hoverColor } from '../../../constant/colors';
 import { useState } from 'react';
 import { mediumWindowSize, smallWindowSize } from '../../../constant/window';
 
